@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* background: rgb(10, 134, 52); */
+  background: linear-gradient(
+    180deg,
+    rgba(17, 1, 10, 0.9) 0%,
+    rgba(14, 1, 1, 0.9) 100%
+  );
+  width: 100vw;
+  height: 100vh;
+  font-family: "ubuntu", "Helvetica Neue", "Arial,";
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  width: 8vw;
+  height: 13vh;
+  border: 10px solid rgb(7, 83, 196);
+  border-radius: 10px;
+  /* padding: 2rem; */
+}
+.drum:hover {
+  color: cadetblue;
+}
+/* 
+img {
+  width: 80%;
+  height: 100%;
+} */
+
+h1,
+footer {
+  color: white;
+  text-align: center;
+  /* margin-top: 80px; */
+}
+footer {
+  margin-top: -10rem;
+}
+
+#title {
+  font-size: 5rem;
+  margin-bottom: -10rem;
+  margin-top: 10rem;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+  width: 100vw;
+  /* margin-left: 17rem;
+  margin-top: 30rem; */
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #dbedf3;
+  opacity: 0.5;
+}
+
+.w {
+  background-image: url("/images/crash.png");
+  margin: 1rem;
+  font-size: 5rem;
+  font-weight: bolder;
+  color: rgb(224, 26, 26);
+  text-shadow: 3px 1px 1px #fae0e0;
+}
+.a {
+  background-image: url("/images/kick.png");
+  margin: 1rem;
+  font-size: 5rem;
+  font-weight: bolder;
+  color: rgb(224, 26, 26);
+  text-shadow: 3px 1px 1px #fae0e0;
+}
+.s {
+  background-image: url("/images/snare.png");
+  margin: 1rem;
+  font-size: 5rem;
+  font-weight: bolder;
+  color: rgb(224, 26, 26);
+  text-shadow: 3px 1px 1px #fae0e0;
+}
+.d {
+  background-image: url("/images/tom1.png");
+  margin: 1rem;
+  font-size: 5rem;
+  font-weight: bolder;
+  color: rgb(224, 26, 26);
+  text-shadow: 3px 1px 1px #fae0e0;
+}
+.j {
+  background-image: url("/images/tom2.png");
+  margin: 1rem;
+  font-size: 5rem;
+  font-weight: bolder;
+  color: rgb(224, 26, 26);
+  text-shadow: 3px 1px 1px #fae0e0;
+}
+.k {
+  background-image: url("/images/tom3.png");
+  margin: 1rem;
+  font-size: 5rem;
+  font-weight: bolder;
+  color: rgb(224, 26, 26);
+  text-shadow: 3px 1px 1px #fae0e0;
+}
+.l {
+  background-image: url("/images/tom4.png");
+  margin: 1rem;
+  font-size: 5rem;
+  font-weight: bolder;
+  color: rgb(224, 26, 26);
+  text-shadow: 3px 1px 1px #fae0e0;
+}
